@@ -243,7 +243,10 @@
 
         if (choice === "burger") {
           alert("CORRECT! 😍🍔");
-          confetti();
+          confetti({
+            particleCount: 2500,
+            spread: 180,
+          });
         } else {
           alert("WRONG!! 😠 TRY AGAIN!");
         }
